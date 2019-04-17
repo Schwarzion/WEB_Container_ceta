@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>Container_ceta</Name>
+    <ProjectGuid>9d072fa8-69f5-4299-8603-749405dd7212</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>Container_ceta</AssemblyName>
+    <SpecificPageValue>home.php</SpecificPageValue>
+    <StartAction>SpecificPage</StartAction>
+    <SaveServerSettingsInUserFile>false</SaveServerSettingsInUserFile>
+    <Runtime>PHP</Runtime>
+    <RuntimeVersion>5.6</RuntimeVersion>
+    <EnvName>PHPDev</EnvName>
+    <PHPDevHostName>localhost</PHPDevHostName>
+    <PHPDevAutoPort>true</PHPDevAutoPort>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="find.php" />
+    <Compile Include="find2.php" />
+    <Compile Include="home.php" />
+    <Compile Include="list_all.php" />
+    <Compile Include="list_container.php" />
+    <Compile Include="list_empty.php" />
+    <Compile Include="list_full.php" />
+    <Compile Include="register.php" />
+    <Compile Include="register2.php" />
+    <Compile Include="register3.php" />
+    <Compile Include="tools.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="find.css" />
+    <Content Include="home.css" />
+    <Content Include="list_container.css" />
+    <Content Include="register.css" />
+  </ItemGroup>
+</Project>
